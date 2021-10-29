@@ -1,0 +1,88 @@
+@media (min-width: 300px) {
+    .cards {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 600px) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 900px) {
+    .cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+body {
+    background: linear-gradient(45deg, hsla(352, 96%, 45%, 1) 0%, hsla(352, 96%, 45%, 0) 70%), linear-gradient(135deg, hsla(253, 95%, 42%, 1) 10%, hsla(253, 95%, 42%, 0) 80%), linear-gradient(225deg, hsla(179, 91%, 45%, 1) 10%, hsla(179, 91%, 45%, 0) 80%), linear-gradient(315deg, hsla(119, 96%, 49%, 1) 100%, hsla(119, 96%, 49%, 0) 70%);
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    color: #2c2c2c;
+    letter-spacing: .05em;
+    text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);
+    height: 100px;
+    padding-top: 40px;
+}
+
+div.card:hover {
+    border-style: solid;
+    border-width: 5px;
+    color: rgb(72, 209, 101);
+    padding: 5px;
+    margin: 5px;
+    box-shadow: 5px 5px 0px 0px rgb(62, 199, 165);
+}
+
+div.card img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    font-family: "ocr extended";
+    font-size: 120%;
+    font-weight: bold;
+}
+
+bbbb.card {
+    background-color: dodgerblue;
+    color: white;
+    padding: 1rem;
+    height: 6rem;
+}
+
+div.card {
+    background-color: #ffff;
+    width: 300px;
+    border-radius: 5px;
+    position: relative;
+    top: 0px;
+    box-shadow: 10px 5px 5px 0px rgb(62, 199, 165);
+}
+
+.cards {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+}
+
+.mal img {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    text-align: center;
+}
