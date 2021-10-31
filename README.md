@@ -1,3 +1,4 @@
 # My-Favorite-Anime-Characters
 ## Preview
-![a](https://user-images.githubusercontent.com/63496374/139363054-0db16db0-0f1f-4857-ba79-78bed4547dc5.PNG)
+
+![img](https://user-images.githubusercontent.com/63496374/139407304-c1d8984e-d5b8-47a6-bbd6-9e276f65b9d2.PNG)
