@@ -19,7 +19,7 @@
 }
 
 body {
-    background: linear-gradient(45deg, hsla(352, 96%, 45%, 1) 0%, hsla(352, 96%, 45%, 0) 70%), linear-gradient(135deg, hsla(253, 95%, 42%, 1) 10%, hsla(253, 95%, 42%, 0) 80%), linear-gradient(225deg, hsla(179, 91%, 45%, 1) 10%, hsla(179, 91%, 45%, 0) 80%), linear-gradient(315deg, hsla(119, 96%, 49%, 1) 100%, hsla(119, 96%, 49%, 0) 70%);
+    background: linear-gradient(270deg, pink, lightblue);
 }
 
 h1 {
@@ -34,10 +34,10 @@ h1 {
 
 div.card:hover {
     border-style: solid;
-    border-width: 5px;
+    border-width: 2px;
     color: rgb(72, 209, 101);
-    padding: 5px;
-    margin: 5px;
+    padding: 0,5px;
+    margin: 2px;
     box-shadow: 5px 5px 0px 0px rgb(62, 199, 165);
 }
 
@@ -74,7 +74,7 @@ div.card {
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
-    grid-gap: 1rem;
+    grid-gap: 5rem;
 }
 
 .mal img {
@@ -85,4 +85,5 @@ div.card {
     height: 56px;
     border-radius: 100%;
     text-align: center;
+    box-shadow: 5px 5px 5px rgb(83, 83, 83);
 }
